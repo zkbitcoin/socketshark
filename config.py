@@ -2,8 +2,12 @@
 # For more settings, see socketshark/config_defaults.py
 
 # Host and port to bind WebSockets.
-WS_HOST = '127.0.0.1'
+WS_HOST = 'zkbitcoin.com'
 WS_PORT = '3000'
+WS_SSL = {
+    'cert': '/home/pivx/cert/blockbook.crt',
+    'key': '/home/pivx/cert/blockbook.key',
+}
 
 # Redis options
 REDIS = {
