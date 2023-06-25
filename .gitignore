@@ -7,4 +7,5 @@ dist/
 *.egg-info/
 .tox/
 __pycache__
-venv
+.venv
+config.py
